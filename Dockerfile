@@ -6,4 +6,5 @@ RUN apk add --no-cache \
     libxml2-dev \
     sqlite-dev \
     postgresql-dev \
+    git \
     && gem install bundler
