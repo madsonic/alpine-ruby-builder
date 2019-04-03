@@ -8,4 +8,4 @@ RUN apk add --no-cache \
     postgresql-dev \
     git \
     openssh \
-    && gem install bundle
+    && gem install bundler
