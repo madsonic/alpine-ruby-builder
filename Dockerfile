@@ -1,4 +1,4 @@
-FROM ruby:2.3.1-alpine
+FROM ruby:2.3.3-alpine
 
 RUN apk add --no-cache \
     build-base \
@@ -8,4 +8,4 @@ RUN apk add --no-cache \
     postgresql-dev \
     git \
     openssh \
-    && gem install bundler
+    && gem install bundler -v "<2.0"
